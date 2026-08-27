@@ -19,6 +19,6 @@ public class TextBoxTests extends BaseTest {
         tb.enterPermanentAddress(permAddr);
         tb.clickSubmit();
 
-        Assert.assertTrue(tb.isOutputDisplayed(), "Output should be displayed");
+        Assert.assertTrue(tb.isOutputDisplayed(), "Output is displayed");
     }
 }
